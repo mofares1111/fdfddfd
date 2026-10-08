@@ -87,9 +87,9 @@
         /* حجم ورقة A4 مع الإطار الأسود فقط بدون ترويسة وزارية */
         .a4-page {
             width: 210mm; 
-            min-height: 297mm; 
+            height: 297mm; 
             background: white; 
-            padding: 12mm 15mm;
+            padding: 10mm 12mm;
             box-shadow: 0 15px 30px rgba(0,0,0,0.3); 
             position: relative;
             display: flex; 
@@ -98,6 +98,7 @@
             border: 2px solid #000; 
             font-family: 'Cairo', Arial, sans-serif; 
             color: #000;
+            overflow: hidden;
         }
 
         .exam-instruction-bar {
